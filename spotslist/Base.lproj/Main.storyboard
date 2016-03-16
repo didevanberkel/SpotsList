@@ -36,18 +36,18 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="87" id="WOY-cF-fwY" customClass="PostCell" customModule="SpotsList" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="560" height="87"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="WOY-cF-fwY" id="Igy-L9-E6a">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WOY-cF-fwY" id="Igy-L9-E6a">
                                             <rect key="frame" x="0.0" y="0.0" width="560" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="jan-evertsen" translatesAutoresizingMaskIntoConstraints="NO" id="kHz-aT-8Xr">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jan-evertsen" translatesAutoresizingMaskIntoConstraints="NO" id="kHz-aT-8Xr">
                                                     <rect key="frame" x="8" y="8" width="70" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="QxU-W0-CGc"/>
                                                         <constraint firstAttribute="height" constant="70" id="pEg-3b-bg6"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Jan Eef!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="NN3-OA-rX8">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jan Eef!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="NN3-OA-rX8">
                                                     <rect key="frame" x="86" y="7" width="466" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Da0-8t-cPT"/>
@@ -56,7 +56,7 @@
                                                     <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Winter in the Jan Evertsenstraat. The lights create a nice atmosphere at night." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-2H-OgV">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Winter in the Jan Evertsenstraat. The lights create a nice atmosphere at night." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-2H-OgV">
                                                     <rect key="frame" x="86" y="30" width="466" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="SOs-eW-ZqB"/>
@@ -81,6 +81,7 @@
                                                 <constraint firstItem="kHz-aT-8Xr" firstAttribute="leading" secondItem="Igy-L9-E6a" secondAttribute="leadingMargin" id="QUf-3F-YA4"/>
                                                 <constraint firstItem="pH5-2H-OgV" firstAttribute="trailing" secondItem="Igy-L9-E6a" secondAttribute="trailingMargin" id="RrL-jq-g2e"/>
                                                 <constraint firstItem="pH5-2H-OgV" firstAttribute="top" secondItem="NN3-OA-rX8" secondAttribute="bottom" constant="3" id="SC0-wF-NPy"/>
+                                                <constraint firstItem="kHz-aT-8Xr" firstAttribute="centerY" secondItem="Igy-L9-E6a" secondAttribute="centerY" id="cbe-M5-el7"/>
                                                 <constraint firstItem="pH5-2H-OgV" firstAttribute="top" secondItem="Igy-L9-E6a" secondAttribute="topMargin" constant="20" id="nxI-hW-cyV"/>
                                                 <constraint firstItem="pH5-2H-OgV" firstAttribute="leading" secondItem="kHz-aT-8Xr" secondAttribute="trailing" constant="8" id="tyw-Ka-7kc"/>
                                                 <constraint firstItem="NN3-OA-rX8" firstAttribute="top" secondItem="Igy-L9-E6a" secondAttribute="topMargin" id="yrB-nq-WbC"/>
